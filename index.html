@@ -5,39 +5,87 @@
     <title>Cổng Học Tập Python Cơ Bản</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <!-- Giao diện chuẩn phong cách Vue của Docsify -->
     <link rel="stylesheet"
           href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+    <style>
+        /* Dark mode */
+        body.dark {
+            background: #1e1e1e;
+            color: #ddd;
+        }
+
+        body.dark .markdown-section {
+            color: #ddd;
+        }
+
+        body.dark .markdown-section h1,
+        body.dark .markdown-section h2,
+        body.dark .markdown-section h3 {
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="app">Đang tải Cổng Học Tập Python...</div>
 
-    <script>
-        window.$docsify = {
-            name: 'Cổng Học Tập Python Cơ Bản',
-            repo: '',
-            loadSidebar: true,
-            subMaxLevel: 3,
-            search: 'auto'
-        };
-    </script>
+<div id="app">Đang tải Cổng Học Tập Python...</div>
 
-    <!-- Thư viện mã nguồn mở Docsify -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script>
+    window.$docsify = {
+        name: 'Cổng Học Tập Python Cơ Bản',
 
-    <!-- Plugin tìm kiếm thông minh -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+        repo: '',
 
-    <!-- Plugin Copy Code -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-	
-	<!-- Plugin Đếm số chữ & Thời gian đọc -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
+        loadSidebar: true,
 
-    <!-- Plugin Dark Mode / Theme -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+        subMaxLevel: 3,
+
+        search: 'auto',
+
+        // Cấu hình Dark / Light mode
+        darklightTheme: {
+            siteFont: 'Arial, sans-serif',
+            defaultTheme: 'vue',
+            codeFontFamily: 'monospace',
+            bodyFontSize: '15px',
+            dark: {
+                accent: '#42b983',
+                toogleBackground: '#ffffff',
+                background: '#1e1e1e',
+                textColor: '#cccccc',
+                codeTextColor: '#ffffff',
+                codeBackgroundColor: '#2d2d2d',
+                borderColor: '#444444',
+                blockQuoteColor: '#888888',
+                highlightColor: '#ffeb3b',
+                sidebarSublink: '#aaaaaa',
+                codeTypeColor: '#ffffff'
+            },
+            light: {
+                accent: '#42b983'
+            }
+        }
+    };
+</script>
+
+<!-- Docsify -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+<!-- Search -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+<!-- Copy code -->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+<!-- Count words / reading time -->
+<script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
+
+<!-- Dark / Light mode -->
+<script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+
 </body>
 </html>
