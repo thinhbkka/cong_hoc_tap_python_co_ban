@@ -8,26 +8,14 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+    <!-- Docsify Vue Theme -->
     <link rel="stylesheet"
           href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 
-    <style>
-        /* Dark mode */
-        body.dark {
-            background: #1e1e1e;
-            color: #ddd;
-        }
-
-        body.dark .markdown-section {
-            color: #ddd;
-        }
-
-        body.dark .markdown-section h1,
-        body.dark .markdown-section h2,
-        body.dark .markdown-section h3 {
-            color: #fff;
-        }
-    </style>
+    <!-- Dark / Light Theme -->
+    <link rel="stylesheet"
+          href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+          title="docsify-darklight-theme">
 </head>
 
 <body>
@@ -46,28 +34,11 @@
 
         search: 'auto',
 
-        // Cấu hình Dark / Light mode
         darklightTheme: {
             siteFont: 'Arial, sans-serif',
-            defaultTheme: 'vue',
+            defaultTheme: 'light',
             codeFontFamily: 'monospace',
-            bodyFontSize: '15px',
-            dark: {
-                accent: '#42b983',
-                toogleBackground: '#ffffff',
-                background: '#1e1e1e',
-                textColor: '#cccccc',
-                codeTextColor: '#ffffff',
-                codeBackgroundColor: '#2d2d2d',
-                borderColor: '#444444',
-                blockQuoteColor: '#888888',
-                highlightColor: '#ffeb3b',
-                sidebarSublink: '#aaaaaa',
-                codeTypeColor: '#ffffff'
-            },
-            light: {
-                accent: '#42b983'
-            }
+            bodyFontSize: '15px'
         }
     };
 </script>
