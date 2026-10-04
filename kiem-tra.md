@@ -1,6 +1,6 @@
 # Kiểm tra Python cơ bản
 
-## 1. Mục tiêu
+## Mục tiêu
 
 Bài kiểm tra tổng kết giúp đánh giá mức độ nắm vững các kiến thức:
 
@@ -12,7 +12,7 @@ Bài kiểm tra tổng kết giúp đánh giá mức độ nắm vững các ki�
 
 ---
 
-# Phần 1. Trắc nghiệm
+## Phần 1. Trắc nghiệm
 
 ### Câu 1
 Python là gì?
@@ -131,7 +131,7 @@ D. Tạo biến
 
 ---
 
-# Phần 2. Đọc và dự đoán kết quả
+## Phần 2. Đọc và dự đoán kết quả
 
 ### Câu 11
 
@@ -204,7 +204,7 @@ Kết quả là bao nhiêu?
 
 ---
 
-# Phần 3. Viết chương trình
+## Phần 3. Viết chương trình
 
 ### Câu 16. Thông tin cá nhân
 
@@ -280,7 +280,7 @@ Hàm nhận chiều dài và chiều rộng, sau đó trả về diện tích h�
 
 ---
 
-# Phần 4. Bài tập tổng hợp
+## Phần 4. Bài tập tổng hợp
 
 ## Câu 21. Quản lý điểm học sinh
 
@@ -333,7 +333,7 @@ Sử dụng vòng lặp để cho phép người chơi đoán nhiều lần.
 
 ---
 
-# Phần 5. Thử thách
+## Phần 5. Thử thách
 
 ### Câu 24. Kiểm tra số nguyên tố
 
@@ -359,7 +359,7 @@ Hàm trả về số lớn nhất trong ba số `a`, `b`, `c`.
 
 ---
 
-# Checklist trước khi nộp
+## Checklist trước khi nộp
 
 - [ ] Biết sử dụng `print()`
 - [ ] Biết tạo và sử dụng biến
