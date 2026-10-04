@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="vi">
-<style>
-    /* Move Dark/Light button before word count */
-    .docsify-darklight-theme {
-        position: fixed !important;
-        top: 85px !important;
-        right: 120px !important;
-        margin: 0 !important;
-        z-index: 9999 !important;
-    }
-</style>
 
 <style>
     /* Remove "-" before automatically generated sidebar headings */
@@ -17,7 +7,6 @@
         content: none !important;
     }
 </style>
-    
 <head>
     <meta charset="UTF-8">
     <title>Cổng Học Tập Python Cơ Bản</title>
@@ -37,21 +26,17 @@
 </head>
 
 <body>
-
 <div id="app">Đang tải Cổng Học Tập Python...</div>
-
 <script>
     window.$docsify = {
         name: 'Cổng Học Tập Python Cơ Bản',
 
         repo: '',
-
+        /* HomePage */
+        homepage: 'trang-chu.md',
         loadSidebar: true,
-
         subMaxLevel: 3,
-
         search: 'auto',
-
         darklightTheme: {
             siteFont: 'Arial, sans-serif',
             defaultTheme: 'light',
