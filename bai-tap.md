@@ -1,6 +1,6 @@
 # Bài tập Python cơ bản
 
-## 1. Hướng dẫn làm bài
+# Hướng dẫn làm bài
 
 Các bài tập được sắp xếp từ cơ bản đến nâng cao, tương ứng với các nội dung đã học:
 
@@ -558,7 +558,7 @@ function
 
 ---
 
-# 8. Dự án nhỏ
+# Phần 8. Dự án nhỏ
 
 ## Quản lý thông tin học sinh
 
@@ -600,7 +600,7 @@ def show_student():
 
 ---
 
-# 9. Checklist hoàn thành
+# Checklist hoàn thành
 
 | Nội dung | Hoàn thành |
 |---|---|
