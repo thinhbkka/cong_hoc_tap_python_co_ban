@@ -85,7 +85,7 @@ Kết quả:
 
 ---
 
-# 5. Các kiểu dữ liệu cơ bản
+## 5. Các kiểu dữ liệu cơ bản
 
 Trong Python, một số kiểu dữ liệu cơ bản thường gặp là:
 
