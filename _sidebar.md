@@ -12,3 +12,6 @@
 
 * **Kiểm Tra**
   * [Kiểm tra kiến thức](kiem-tra.md)
+  * 
+* **Đánh giá & Phản Hồi**
+  * [Gửi đánh giá & phản hồi](phan-hoi.md)
