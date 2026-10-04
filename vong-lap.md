@@ -35,7 +35,7 @@ while
 
 ---
 
-# 3. Vòng lặp `for`
+## 3. Vòng lặp `for`
 
 Vòng lặp `for` thường được sử dụng khi muốn lặp qua một tập hợp giá trị hoặc thực hiện một câu lệnh với số lần xác định.
 
@@ -167,7 +167,7 @@ Kết quả:
 
 ---
 
-# 6. Duyệt chuỗi bằng `for`
+## 6. Duyệt chuỗi bằng `for`
 
 Vòng lặp `for` có thể được sử dụng để duyệt từng ký tự trong chuỗi.
 
@@ -191,7 +191,7 @@ n
 
 ---
 
-# 7. Vòng lặp `while`
+## 7. Vòng lặp `while`
 
 Vòng lặp `while` được sử dụng để lặp lại câu lệnh **khi điều kiện còn đúng**.
 
@@ -259,7 +259,7 @@ vòng lặp có thể chạy mãi vì `count` luôn bằng `1`.
 
 ---
 
-# 9. So sánh `for` và `while`
+## 9. So sánh `for` và `while`
 
 | `for` | `while` |
 |---|---|
@@ -297,7 +297,7 @@ Hai chương trình trên đều in:
 
 ---
 
-# 10. Câu lệnh `break`
+## 10. Câu lệnh `break`
 
 `break` dùng để **thoát khỏi vòng lặp ngay lập tức**.
 
@@ -325,7 +325,7 @@ Khi `i == 5`, lệnh `break` được thực hiện và vòng lặp kết thúc.
 
 ---
 
-# 11. Câu lệnh `continue`
+## 11. Câu lệnh `continue`
 
 `continue` dùng để **bỏ qua phần còn lại của lần lặp hiện tại** và chuyển sang lần lặp tiếp theo.
 
@@ -352,7 +352,7 @@ Khi `i == 2`, chương trình bỏ qua lệnh `print(i)` và tiếp tục với 
 
 ---
 
-# 12. Vòng lặp kết hợp với điều kiện
+## 12. Vòng lặp kết hợp với điều kiện
 
 Có thể sử dụng `if` bên trong vòng lặp.
 
@@ -376,7 +376,7 @@ Kết quả:
 
 ---
 
-# 13. Vòng lặp lồng nhau
+## 13. Vòng lặp lồng nhau
 
 Một vòng lặp có thể nằm bên trong một vòng lặp khác.
 
@@ -403,7 +403,7 @@ Vòng lặp lồng nhau thường được sử dụng khi xử lý dữ liệu 
 
 ---
 
-# 14. Thực hành
+## 14. Thực hành
 
 ### Bài tập 1
 
@@ -494,7 +494,7 @@ Sử dụng vòng lặp để kiểm tra xem số đó có phải là số nguy�
 
 ---
 
-# 16. Bài tập ứng dụng
+## 16. Bài tập ứng dụng
 
 Viết chương trình mô phỏng việc nhập mật khẩu.
 
@@ -515,7 +515,7 @@ Gợi ý: có thể sử dụng vòng lặp `while` kết hợp với `if`.
 
 ---
 
-# 17. Kiến thức cần nhớ
+## 17. Kiến thức cần nhớ
 
 | Nội dung | Ghi nhớ |
 |---|---|
