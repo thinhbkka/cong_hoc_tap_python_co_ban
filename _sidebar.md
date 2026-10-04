@@ -1,4 +1,4 @@
-* [Trang Chủ](/)
+* [Trang Chủ](trang-chu.md)
 
 * **Kiến Thức Python**
   * [Giới thiệu Python](gioi-thieu.md)
