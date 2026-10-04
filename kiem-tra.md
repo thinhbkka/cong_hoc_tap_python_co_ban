@@ -282,7 +282,7 @@ Hàm nhận chiều dài và chiều rộng, sau đó trả về diện tích h�
 
 ## Phần 4. Bài tập tổng hợp
 
-## Câu 21. Quản lý điểm học sinh
+### Câu 21. Quản lý điểm học sinh
 
 Viết chương trình thực hiện:
 
@@ -304,7 +304,7 @@ Diem trung binh: 7.5
 Xep loai: Kha
 ```
 
-## Câu 22. Máy tính đơn giản
+### Câu 22. Máy tính đơn giản
 
 Viết chương trình cho phép người dùng:
 
@@ -317,7 +317,7 @@ Viết chương trình cho phép người dùng:
    - `/`
 4. Hiển thị kết quả.
 
-## Câu 23. Trò chơi đoán số
+### Câu 23. Trò chơi đoán số
 
 Tạo một số bí mật.
 
